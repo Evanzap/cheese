@@ -1,0 +1,45 @@
+# This file defines the animations used in a texture pack for ClassicalSharp and other supporting applications.
+# Each line is in the format : <TileX> <TileY> <FrameX> <FrameY> <Frame size> <Frames count> <Tick delay>
+# - TileX and TileY are the coordinates of the tile in terrain.png that will be replaced by the animation frames.
+#     Essentially, TileX and TileY are the remainder and quotient of an ID in F10 menu divided by 16
+#     For instance, obsidian texture(37) has TileX of 5, and TileY of 2
+# - FrameX and FrameY are the pixel coordinates of the first animation frame in animations.png.
+# - Frame Size is the size in pixels of an animation frame.
+# - Frames count is the number of used frames.  The first frame is located at
+#     (FrameX, FrameY), the second one at (FrameX + FrameSize, FrameY) and so on.
+# - Tick delay is the number of ticks a frame doesn't change. For instance, delay of 0
+#     means that the tile would be replaced every tick, while delay of 2 means
+#     'replace with frame 1, don't change frame, don't change frame, replace with frame 2'.
+# NOTE: If a file called 'uselavaanim' is in the texture pack, ClassicalSharp 0.99.2 onwards uses its built - in dynamic generation for the lava texture animation.
+# NOTE : If a file called 'usewateranim' is in the texture pack, ClassicalSharp 0.99.5 onwards uses its built - in dynamic generation for the water texture animation.
+
+# fuck you
+6 2 0 0 16 32 0
+#left blu tp
+0 6 256 64 16 10 0
+#front blue tp
+0 7 256 48 16 10 0         
+#left red tp
+0 8 416 48 16 10 0
+#front red tp
+0 9 416 64 16 10 0
+#top red tp
+0 10 416 32 16 10 0
+#blue top tp
+0 11 256 32 16 10 0
+#wator
+14 0 0 80 16 1523 2
+#fan2
+14 3 96 48 16 8 0
+#poop
+1 29 512 0 16 4 6
+#compuiter
+11 1 224 48 16 2 10
+#debug
+4 23 0 112 16 500 18
+#breack
+0 31 80 64 16 10 7
+# cog
+15 2 0 16 16 32 0
+#fan1
+12 3 0 48 16 6 0
